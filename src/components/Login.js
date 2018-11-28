@@ -1,0 +1,37 @@
+import React, { Component } from 'react';
+import firebase from "../firebaseConfig"; 
+import withFirebaseAuth from "react-auth-firebase";
+import Home from './Home';
+import { Redirect } from 'react-router-dom';
+
+class Login extends Component {
+  render() {
+    const {
+      signInWithFacebook,
+      signOut,
+      user,
+      error 
+    } = this.props;
+
+    if(user){
+      return(<Home signOut={signOut}></Home>);
+    }
+    return (
+      <div>
+        <button onClick={signInWithFacebook}>Signin with Facebook</button>
+      </div>
+    );
+  }
+  
+}
+
+const authConfig = {
+  facebook: {
+    // redirect: true, // Opens a pop up by default
+    returnAccessToken: true, // Returns an access token as googleAccessToken prop
+    saveUserInDatabase: true, // Saves user in database at /users ref
+    scopes: ["user_friends","email"]
+  }
+};
+
+export default withFirebaseAuth(Login, firebase, authConfig);
