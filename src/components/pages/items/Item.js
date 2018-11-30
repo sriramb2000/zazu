@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "./w3.css"
-
+import { Icon } from 'react-materialize';
 
 const symbol= {
 	width: '10%',
@@ -118,7 +118,7 @@ export default class Item extends Component {
 	    <div>
 		    
 		    
-		    <div class="w3-cell-row w3-light-gray">
+		    <div class="w3-cell-row grey-withme">
 			  <div class="w3-container w3-cell  " style={symbol}>
 			  	<img src={this.props.symbol_img} alt="NetFlix" style={symbolImg} />
 			  	
@@ -151,13 +151,13 @@ export default class Item extends Component {
 			 	<div class="w3-container w3-cell " style={vote}>
 					<div class="w3-cell-row">
 				 		<div class="w3-container w3-cell " style={thumbUp}>
-				 			<img src={require("./thumbUp.png")} alt="up" style={thumbUpImg} />
+				 			<Icon className="black-icon" style={thumbUpImg}>arrow_drop_up</Icon>
 				 		</div>
 				 		<div class="w3-container w3-cell " style={thumbValue}>
 				 			<p style={thumbValueStyle}>{this.props.thumb_value}</p>
 				 		</div>
 				 		<div class="w3-container w3-cell " style={thumbDown}>
-				 			<img src={require("./thumbDown.png")} alt="up" style={thumbDownImg} />
+				 			<Icon className="black-icon" style={thumbDownImg}>arrow_drop_down</Icon>
 				 		</div>
 				 	</div>
 

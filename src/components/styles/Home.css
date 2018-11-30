@@ -1,0 +1,21 @@
+.yellow-bg{
+    background: white;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.black-icon{
+    color:black;
+}
+
+.grey-withme{
+    background: rgb(229,229,229);
+}
+
+.blue-withme{
+    background: rgb(0,32,96);
+}
+
+.yellow-withme{
+    background: rgb(255,214,99);
+}

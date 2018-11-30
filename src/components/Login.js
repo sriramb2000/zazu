@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import firebase from "../firebaseConfig"; 
 import withFirebaseAuth from "react-auth-firebase";
 import Home from './Home';
-import { Redirect } from 'react-router-dom';
+import FacebookLogin from './FacebookLogin';
 
 class Login extends Component {
   render() {
@@ -14,12 +14,12 @@ class Login extends Component {
     } = this.props;
 
     if(user){
-      return(<Home signOut={signOut}></Home>);
+      return(
+        <Home signOut={signOut} user={user}/>
+      );
     }
     return (
-      <div>
-        <button onClick={signInWithFacebook}>Signin with Facebook</button>
-      </div>
+      <FacebookLogin signIn={signInWithFacebook}/>
     );
   }
   

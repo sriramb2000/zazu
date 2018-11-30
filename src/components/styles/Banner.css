@@ -1,0 +1,22 @@
+@font-face {
+    font-family: SourceSansPro-Bold;
+    src: url('fonts/source-sans-pro/SourceSansPro-Bold.ttf');
+}
+@font-face {
+    font-family: SourceSansPro-Regular;
+    src: url('fonts/source-sans-pro/SourceSansPro-Regular.ttf');
+}
+
+.blue-banner{
+    background: rgb(0,32,96);
+    width: 100%;
+    font-family: SourceSansPro-Bold;
+}
+
+i{
+    color: white;
+}
+
+i:hover {
+    color: rgb(242,169,0);
+}
