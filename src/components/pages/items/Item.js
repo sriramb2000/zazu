@@ -20,10 +20,11 @@ const symbolImg = {
 	
 }
 const profileStyle = {
-	fontSize: '12px',
-	textAlign: 'center',
+	fontSize: '10px',
+	marginLeft: '10px',
 	float: 'center',
-	marginTop: '5px'
+	marginTop: '7px',
+	fontWeight: 'bold'
 	
 }
 const dummy = {
@@ -34,9 +35,10 @@ const thumb = {
 	width: '30%'
 }
 const thumbImg = {
-	width: '70px',
-	height: '70px',
-	marginLeft: '30px'
+	width: '50px',
+	height: '50px',
+	marginLeft: '30px',
+	marginTop: '10px'
 }
 
 const info = {
@@ -45,11 +47,13 @@ const info = {
 const titleStyle = {
 	marginTop: '10px',
 	marginLeft: '5px',
-	fontSize: '60%'
+	fontSize: '80%',
+	color: 'rgb(0,0,255)'
 }
 const commentStyle = {
 	marginLeft: '5px',
-	fontSize: '60%'
+	fontSize: '60%',
+
 }
 const linkInfo = {
 	width: '20%'
@@ -102,7 +106,9 @@ const postDateStyle = {
 	marginTop: '1px',
 	marginBottom: '1px',
 	textAlign: 'center',
-	fontSize: '10px'
+	fontSize: '10px',
+	fontStyle: 'italic'
+
 }
 
 export default class Item extends Component {
@@ -112,55 +118,55 @@ export default class Item extends Component {
 	    <div>
 		    
 		    
-		    <div class="w3-cell-row">
-			  <div class="w3-container w3-cell  w3-red" style={symbol}>
+		    <div class="w3-cell-row w3-light-gray">
+			  <div class="w3-container w3-cell  " style={symbol}>
 			  	<img src={this.props.symbol_img} alt="NetFlix" style={symbolImg} />
 			  	
 			  </div>
 			  
-			  <div class="w3-container w3-cell w3-green" style={title}>
-			  	<p style={profileStyle}>{this.props.profile_name} Shared:</p>
+			  <div class="w3-container w3-cell" style={title}>
+			  	<p style={profileStyle}>{this.props.profile_name} shared:</p>
 			  </div>
-			  <div class="w3-container w3-cell w3-gray" style={dummy}>
+			  <div class="w3-container w3-cell" style={dummy}>
 			 	<p></p>
 			  </div>
 			 </div>
 			
 			
-			 <div class="w3-cell-row">
-				  <div class="w3-container w3-cell w3-blue" style={thumb}>
+			 <div class="w3-cell-row ">
+				  <div class="w3-container w3-cell " style={thumb}>
 				  	<img src={this.props.thumb_img} alt="NetFlix" style={thumbImg} />
 				  </div>
-				  <div class="w3-container w3-cell w3-yellow" style={info}>
+				  <div class="w3-container w3-cell " style={info}>
 				  	<p style={titleStyle}> {this.props.title_name} </p>
-				  	<p style={commentStyle}> {this.props.comment} </p>
+				  	<p style={commentStyle}> "{this.props.comment}" </p>
 				  </div>
-				  <div class="w3-container w3-cell w3-black" style={linkInfo}>
+				  <div class="w3-container w3-cell " style={linkInfo}>
 				  	<img src={this.props.play_img} alt="Play" style={playImg} />
 
 				  </div>			 
 			 </div>
 
-			 <div class="w3-cell-row">
-			 	<div class="w3-container w3-cell w3-purple" style={vote}>
+			 <div class="w3-cell-row ">
+			 	<div class="w3-container w3-cell " style={vote}>
 					<div class="w3-cell-row">
-				 		<div class="w3-container w3-cell w3-red" style={thumbUp}>
+				 		<div class="w3-container w3-cell " style={thumbUp}>
 				 			<img src={require("./thumbUp.png")} alt="up" style={thumbUpImg} />
 				 		</div>
-				 		<div class="w3-container w3-cell w3-blue" style={thumbValue}>
+				 		<div class="w3-container w3-cell " style={thumbValue}>
 				 			<p style={thumbValueStyle}>{this.props.thumb_value}</p>
 				 		</div>
-				 		<div class="w3-container w3-cell w3-yellow" style={thumbDown}>
+				 		<div class="w3-container w3-cell " style={thumbDown}>
 				 			<img src={require("./thumbDown.png")} alt="up" style={thumbDownImg} />
 				 		</div>
 				 	</div>
 
 			 	</div>
-			 	<div class="w3-container w3-cell w3-agua" style={postDate}>
+			 	<div class="w3-container w3-cell" style={postDate}>
 			 		<p style={postDateStyle}>{this.props.post_date}</p>
 			 	</div>
 
-			 	<div class="w3-container w3-cell w3-gray" style={dummy}>
+			 	<div class="w3-container w3-cell" style={dummy}>
 			 		
 			  	</div>
 			 </div>
