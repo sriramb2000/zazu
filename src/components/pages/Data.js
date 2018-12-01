@@ -20,7 +20,7 @@ const BookData = [
         profile_name :  "bob",
         thumb_img :  "https://images-na.ssl-images-amazon.com/images/I/91X4ZCruKNL.jpg",//title image thumbnail
         title_name : "The Immortalist - Chloe Benjamin",//user who shared name
-        comment : "bob",
+        comment : "It has a slow start but once it gets going, I couldn't put it down",
         thumb_value : "bob",//how many votes it has
         post_date : "bob" //when it was posted
     },
@@ -29,7 +29,7 @@ const BookData = [
         profile_name :  "bob",
         thumb_img :  "https://images-na.ssl-images-amazon.com/images/I/81rAGURQpCL.jpg",
         title_name : "Iron Gold - Pierce Brown",
-        comment : "bob",
+        comment : "Can't wait for the next one",
         thumb_value : "bob",
         post_date : "bob"
     },
@@ -38,7 +38,7 @@ const BookData = [
         profile_name :  "bob",
         thumb_img :  "https://images-na.ssl-images-amazon.com/images/I/91DFQa-KgQL.jpg",
         title_name : "Educated - Tara Westover",
-        comment : "bob",
+        comment : "Powerful read",
         thumb_value : "bob",
         post_date : "bob"
     },
@@ -47,7 +47,7 @@ const BookData = [
         profile_name :  "bob",
         thumb_img :  " https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781416590316/frederick-douglass-9781416590316_hr.jpg",
         title_name : "Freferick Douglass - David W. Blight",
-        comment : "bob",
+        comment : "Comprehensive biography of an incredible man",
         thumb_value : "bob",
         post_date : "bob"
     }
@@ -58,7 +58,7 @@ const ShowData = [
         profile_name :  "Ajey Kaushal",
         thumb_img :  " https://cdn1.thr.com/sites/default/files/imagecache/scale_crop_768_433/2018/02/ac_105_unit_00957r-h_2018.jpg",//title image thumbnail
         title_name : "Altered Carbon",
-        comment : "This Show is Awesome!!!",
+        comment : "The coolest show I've seen in a while!",
         thumb_value : "3",//how many votes it has
         post_date : "2 Hours Ago" //when it was posted
     },
@@ -67,7 +67,7 @@ const ShowData = [
         profile_name :  "Kari Hill",
         thumb_img :  "https://i.ytimg.com/vi/OjPYmEZxACM/maxresdefault.jpg",
         title_name : "Last Week Tonight",
-        comment : "Recommend",
+        comment : "Love him!",
         thumb_value : "5",
         post_date : "20 Hours Ago"
     },
@@ -76,7 +76,7 @@ const ShowData = [
         profile_name :  "Dan Ivstan",
         thumb_img :  "http://digitalspyuk.cdnds.net/18/36/980x490/landscape-1536353645-kims-convenience-5.jpg",
         title_name : "Kim's Convenience",
-        comment : "Bluh Bluh Bluh",
+        comment : "Something every immigrant family can relate to",
         thumb_value : "2",
         post_date : "1 Day Ago"
     },
@@ -85,7 +85,7 @@ const ShowData = [
         profile_name :  "Divij Damodhar",
         thumb_img :  "https://occ-0-990-987.1.nflxso.net/art/4d0b9/363f1e49f7ebba6e616b5248ec24b5d58b94d0b9.jpg",
         title_name : "Patriot Act",
-        comment : "This Show is Awesome",
+        comment : "Great addition to late night shows",
         thumb_value : "20",
         post_date : "2 Days Ago"
     },
@@ -94,7 +94,7 @@ const ShowData = [
         profile_name :  "Sriram Balachandran",
         thumb_img :  " https://i.cbc.ca/1.4309262.1506624949!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/curb-your-enthusiasm.jpg",
         title_name : "Curb Your Enthusiasm",
-        comment : "AAA",
+        comment : "Better than Seinfeld!!",
         thumb_value : "57",
         post_date : "5 Days Ago"
     },
@@ -103,7 +103,7 @@ const ShowData = [
         profile_name :  "Masataka Mori",
         thumb_img :  "https://car-images.bauersecure.com/pagefiles/68099/grandtourepisode1.jpg",
         title_name : "The Grand Tour",
-        comment : "bob",
+        comment : "They still got it",
         thumb_value : "1",
         post_date : "1 Week Ago"
     },
@@ -112,7 +112,7 @@ const ShowData = [
         profile_name :  "Sriram Balachandran",
         thumb_img :  "https://assets.foxdcg.com/dpp-uploaded/images/brooklyn-nine-nine/keyart2.jpg",
         title_name : "Brooklyn Nine-Nine",
-        comment : "bob",
+        comment : "Andy Sandberg is sooo funny!",
         thumb_value : "bob",
         post_date : "3 Weeks Ago"
     },
@@ -121,7 +121,7 @@ const ShowData = [
         profile_name :  "bob",
         thumb_img :  "https://pmcvariety.files.wordpress.com/2018/08/insecure-season-3-hbo.jpg?w=1000",
         title_name : "Insecure",
-        comment : "bob",
+        comment : "Such a real show",
         thumb_value : "bob",
         post_date : "bob"
     }
@@ -132,7 +132,7 @@ const MovieData = [
         profile_name :  "bob",
         thumb_img :  "https://images.amcnetworks.com/ifc.com/wp-content/uploads/2016/04/Troy-Pitt-2-web-e1460667624103-800x400.jpg",
         title_name : "Troy",
-        comment : "bob",
+        comment : "Watching it for the 10th time lol",
         thumb_value : "bob",
         post_date : "bob"
     },
@@ -141,7 +141,7 @@ const MovieData = [
         profile_name :  "bob",
         thumb_img :  "https://cdn1.thr.com/sites/default/files/imagecache/landscape_928x523/2017/06/024a_tbs_sg_30719-h_2017.jpg",
         title_name : "The Big Sick",
-        comment : "bob",
+        comment : "Must-watch",
         thumb_value : "bob",
         post_date : "bob"
     },
@@ -150,7 +150,7 @@ const MovieData = [
         profile_name :  "bob",
         thumb_img :  "https://fgmxi4acxur9qbg31y9s3a15-wpengine.netdna-ssl.com/wp-content/uploads/sites/2/2017/10/MargotRobbieasTonyaHarding-feature-1600x900-c-default.jpg",
         title_name : "I, Tonya",
-        comment : "bob",
+        comment : "I couldn't believe that was Margot Robbie! She did a phenomenal job.",
         thumb_value : "bob",
         post_date : "bob"
     },
@@ -159,7 +159,7 @@ const MovieData = [
         profile_name :  "bob",
         thumb_img :  "http://digitalspyuk.cdnds.net/18/47/980x490/landscape-1542964252-sylvester-stallone-michael-b-jordan.jpg",
         title_name : "Creed II",
-        comment : "bob",
+        comment : "Best Rocky movie of the franchise",
         thumb_value : "bob",
         post_date : "bob"
     }
@@ -208,7 +208,7 @@ const LinkData = [
     {
         symbol_img : wsj,
         profile_name :  "bob",
-        thumb_img :  " https://cdn.vox-cdn.com/thumbor/NeSo4JAqv-fFJCIhb5K5eBqvXG4=/7x0:633x417/1200x800/filters:focal(7x0:633x417)/cdn.vox-cdn.com/assets/1311169/mslogo.jpg",
+        thumb_img :  "https://cdn.vox-cdn.com/thumbor/NeSo4JAqv-fFJCIhb5K5eBqvXG4=/7x0:633x417/1200x800/filters:focal(7x0:633x417)/cdn.vox-cdn.com/assets/1311169/mslogo.jpg",
         title_name : "Microsoft shows why Big Tech has staying power",
         comment : "bob",
         thumb_value : "bob",
@@ -267,7 +267,7 @@ const MusicData = [
         profile_name :  "bob",
         thumb_img :  "https://i.ytimg.com/vi/fWjkAzZRnxI/maxresdefault.jpg",
         title_name : "Losing It - Fisher",
-        comment : "bob",
+        comment : "Addicted",
         thumb_value : "bob",
         post_date : "bob"
     },
@@ -276,7 +276,7 @@ const MusicData = [
         profile_name :  "bob",
         thumb_img :  "https://fontmeme.com/images/Armin-van-Buuren-Logo-1.jpg",
         title_name : "Armin Van Buuren - Live @ Tomorrowland 2016",
-        comment : "bob",
+        comment : "G.O.A.T.",
         thumb_value : "bob",
         post_date : "bob"
     },

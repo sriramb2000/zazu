@@ -194,7 +194,8 @@ export default class Item extends Component {
 				  </div>
 				  <div className="w3-container w3-cell w3-center" style={thumb}>
 				  	
-		  			 <i className="fa fa-play-circle fa-2x" style={playIcon}></i>
+		  			 {/*<i className="fa fa-play-circle fa-2x" style={playIcon}></i>*/}
+		  			 <i className={this.props.play_icon} style={playIcon}></i>
 				  	
 				  </div>
 				  
