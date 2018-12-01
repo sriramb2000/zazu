@@ -34,7 +34,19 @@ export default class Banner extends Component {
                 <span onClick={this.openNav.bind(this)}><i className="fa fa-bars fa-2x"></i></span>
                 <div id="sidenav" ref={this.sideNav}>
                     <a href="javascript:void(0)" className="closebtn" onClick={this.closeNav.bind(this)}>&times;</a>
-                    <a href="#">Subscription</a>
+                    <a href="#">Subscriptions</a>
+                    <a>
+                    <span class="switch right-align"><label><label className="service">Netflix</label> Off<input name="on" type="checkbox"/><span class="lever"></span>On</label></span>
+                    </a>
+                    <a>
+                    <span class="switch right-align"><label><label className="service">Prime Video</label> Off<input name="on" type="checkbox"/><span class="lever"></span>On</label></span>
+                    </a>
+                    <a>
+                    <span class="switch right-align"><label><label className="service">Hulu</label> Off<input name="on" type="checkbox"/><span class="lever"></span>On</label></span>
+                    </a>
+                    <a>
+                    <span class="switch right-align"><label><label className="service">HBO GO</label> Off<input name="on" type="checkbox"/><span class="lever"></span>On</label></span>
+                    </a>
                     <a href="#">Connect</a>
                     <a href="#">Privacy</a>
                     <a href="#"><Button id="logout" onClick={this.props.signOut}>Log out</Button></a>

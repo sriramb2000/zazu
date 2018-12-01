@@ -281,4 +281,17 @@ const MusicData = [
         post_date : "17 Hours Ago"
     },
 ];
-export {BookData,ShowData,PodcastData,MovieData, MusicData, LinkData};
+
+const SharedData = [
+    {
+        symbol_img : netflix,
+        profile_name :  "You",
+        thumb_img :  "https://occ-0-987-990.1.nflxso.net/art/b1455/ef462b861438ea1b2dbe29cc73a2eb67a78b1455.jpg",
+        title_name : "Luther",
+        comment : "Idris at his best",
+        thumb_value : "1",
+        post_date : "Shared Moments Ago"
+    },
+];
+
+export {BookData,ShowData,PodcastData,MovieData, MusicData, LinkData, SharedData};
