@@ -117,18 +117,17 @@ const postDateStyle = {
 }
 
 const playIcon = {
-
+	
 	color: 'rgb(255,214,99)',
 	display: 'block',
     marginLeft: 'auto',
     marginRight: 'auto',
+    
     width: '50%',
-    marginTop: '25px',
+    marginTop: '20%'
 		
 }
-const relativeThumb = {
-	position: 'relative'
-}
+
 const secondrow = {
 	height: '70px'
 }

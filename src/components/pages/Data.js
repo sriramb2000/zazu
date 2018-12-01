@@ -20,7 +20,7 @@ const BookData = [
         profile_name :  "bob",
         thumb_img :  "https://images-na.ssl-images-amazon.com/images/I/91X4ZCruKNL.jpg",//title image thumbnail
         title_name : "The Immortalist - Chloe Benjamin",//user who shared name
-        comment : "It has a slow start but once it gets going, I couldn't put it down",
+        comment : "I couldn't put it down",
         thumb_value : "bob",//how many votes it has
         post_date : "bob" //when it was posted
     },
@@ -58,7 +58,7 @@ const ShowData = [
         profile_name :  "Ajey Kaushal",
         thumb_img :  " https://cdn1.thr.com/sites/default/files/imagecache/scale_crop_768_433/2018/02/ac_105_unit_00957r-h_2018.jpg",//title image thumbnail
         title_name : "Altered Carbon",
-        comment : "The coolest show I've seen in a while!",
+        comment : "Coolest show I've seen in a while!",
         thumb_value : "3",//how many votes it has
         post_date : "2 Hours Ago" //when it was posted
     },
@@ -76,7 +76,7 @@ const ShowData = [
         profile_name :  "Dan Ivstan",
         thumb_img :  "http://digitalspyuk.cdnds.net/18/36/980x490/landscape-1536353645-kims-convenience-5.jpg",
         title_name : "Kim's Convenience",
-        comment : "Something every immigrant family can relate to",
+        comment : "Every immigrant family can relate",
         thumb_value : "2",
         post_date : "1 Day Ago"
     },
@@ -150,7 +150,7 @@ const MovieData = [
         profile_name :  "bob",
         thumb_img :  "https://fgmxi4acxur9qbg31y9s3a15-wpengine.netdna-ssl.com/wp-content/uploads/sites/2/2017/10/MargotRobbieasTonyaHarding-feature-1600x900-c-default.jpg",
         title_name : "I, Tonya",
-        comment : "I couldn't believe that was Margot Robbie! She did a phenomenal job.",
+        comment : "Margot Robbie was phenomenal!",
         thumb_value : "bob",
         post_date : "bob"
     },
