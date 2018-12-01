@@ -31,28 +31,28 @@ const dummy = {
 	width: '20%',
 
 }
-const thumb = {
-	width: '30%'
+
+const info = {
+	width: '65%',
 }
+
 const thumbImg = {
-	width: '50px',
-	height: '50px',
-	marginLeft: '30px',
+	width: '120px',
+	width: '100%',
+	marginLeft: '0px',
 	marginTop: '10px'
 }
 
-const info = {
-	width: '50%'
-}
+
 const titleStyle = {
 	marginTop: '10px',
-	marginLeft: '5px',
-	fontSize: '80%',
+	marginLeft: '30px',
+	fontSize: '15px',
 	color: 'black'
 }
 const commentStyle = {
-	marginLeft: '5px',
-	fontSize: '60%',
+	marginLeft: '30px',
+	fontSize: '13px',
 
 }
 const linkInfo = {
@@ -116,12 +116,33 @@ const postDateStyle = {
 
 }
 
+const playIcon = {
+
+	color: 'rgb(255,214,99)',
+	display: 'block',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    width: '50%',
+    marginTop: '25px',
+		
+}
+const relativeThumb = {
+	position: 'relative'
+}
+const secondrow = {
+	height: '70px'
+}
+
 export default class Item extends Component {
     render() {
-		const playIcon = {
-			color: 'rgb(255,214,99)',
-			background: `url(${this.props.symbol_img})`
-		}
+		const thumb = {
+	width: '35%',
+	backgroundSize: '80% 80%',
+	backgroundRepeat: 'no-repeat',
+	backgroundImage: `url(${this.props.thumb_img})`,
+	backgroundPosition: 'center'
+
+}
 	return (
 	    // html 
 	    <div>
@@ -142,20 +163,51 @@ export default class Item extends Component {
 			 </div>
 			
 			
-			 <div className="w3-cell-row ">
-				  <div className="w3-container w3-cell " style={thumb}>
-				  	<img src={this.props.thumb_img} alt="NetFlix" style={thumbImg} />
-				  </div>
-				  <div className="w3-container w3-cell left-align" style={info}>
+			 <div className="w3-cell-row " style={secondrow}>
+			 	  <div className="w3-container w3-cell left-align" style={info}>
 				  	<p style={titleStyle}> {this.props.title_name} </p>
 				  	<p style={commentStyle}> "{this.props.comment}" </p>
-				  </div>
-				  <div className="w3-container w3-cell valign-wrapper" style={linkInfo}>
-				  	{/* <img src={this.props.play_img} alt="Play" style={playImg} /> */}
-					<i className="fa fa-play-circle fa-2x" style={playIcon}></i>
-				  </div>			 
-			 </div>
 
+			  	<div className="w3-cell-row ">
+			 		<div className="w3-container w3-cell " style={vote}>
+						<div className="w3-cell-row">
+					 		<div className="w3-container w3-cell right-align" style={thumbUp}>
+					 			<Icon className="black-icon" style={thumbUpImg}>arrow_drop_up</Icon>
+					 		</div>
+					 		<div className="w3-container w3-cell " style={thumbValue}>
+					 			<p style={thumbValueStyle}>{this.props.thumb_value}</p>
+					 		</div>
+					 		<div className="w3-container w3-cell left-align" style={thumbDown}>
+					 			<Icon className="black-icon" style={thumbDownImg}>arrow_drop_down</Icon>
+					 		</div>
+					 	</div>
+			 		</div>
+
+				 	<div className="w3-container w3-cell" style={postDate}>
+				 		<p style={postDateStyle}>{this.props.post_date}</p>
+				 	</div>
+			 	
+			 	</div>
+
+
+
+				  </div>
+				  <div className="w3-container w3-cell w3-center" style={thumb}>
+				  	
+		  			 <i className="fa fa-play-circle fa-2x" style={playIcon}></i>
+				  	
+				  </div>
+				  
+				  {/*<div className="w3-container w3-cell valign-wrapper" style={linkInfo}>
+
+				  	<img src={this.props.thumb_img} alt="NetFlix" style={thumbImg} />
+
+				  	 <img src={this.props.play_img} alt="Play" style={playImg} /> 
+					<i className="fa fa-play-circle fa-2x" style={playIcon}></i>
+				  </div> 
+				*/}			 
+			 </div>
+{/*
 			 <div className="w3-cell-row ">
 			 	<div className="w3-container w3-cell " style={vote}>
 					<div className="w3-cell-row">
@@ -171,6 +223,7 @@ export default class Item extends Component {
 				 	</div>
 
 			 	</div>
+
 			 	<div className="w3-container w3-cell" style={postDate}>
 			 		<p style={postDateStyle}>{this.props.post_date}</p>
 			 	</div>
@@ -179,7 +232,7 @@ export default class Item extends Component {
 			 		
 			  	</div>
 			 </div>
-
+*/}
 		</div>
 		);
     }

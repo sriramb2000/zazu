@@ -56,11 +56,11 @@ const ShowData = [
     {
         symbol_img : netflix,//service logo
         profile_name :  "bob",
-        thumb_img :  "https://images-na.ssl-images-amazon.com/images/I/610Hgq7Y9-L._SY606_.jpg",//title image thumbnail
+        thumb_img :  " https://cdn1.thr.com/sites/default/files/imagecache/scale_crop_768_433/2018/02/ac_105_unit_00957r-h_2018.jpg",//title image thumbnail
         title_name : "Altered Carbon",
-        comment : "bob",
-        thumb_value : "bob",//how many votes it has
-        post_date : "bob" //when it was posted
+        comment : "This Show is Awesome!!!",
+        thumb_value : "3",//how many votes it has
+        post_date : "2 Hours Ago" //when it was posted
     },
     {
         symbol_img : hbogo,
@@ -85,7 +85,7 @@ const ShowData = [
         profile_name :  "bob",
         thumb_img :  "https://m.media-amazon.com/images/M/MV5BMjE2MTIxNTU5N15BMl5BanBnXkFtZTgwMDY5NjczNjM@._V1_.jpg",
         title_name : "Patriot Act",
-        comment : "bob",
+        comment : "This Movie is Awesome",
         thumb_value : "bob",
         post_date : "bob"
     },
