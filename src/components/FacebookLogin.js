@@ -1,12 +1,29 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './styles/FacebookLoginMain.css';
 import './styles/FacebookLoginUtil.css';
+import Home from './Home';
 
 
 export default class FacebookLogin extends Component {
+    constructor(props) {
+        super(props);
+        // Don't call this.setState() here!
+        this.state = { loggedIn: false };
+        this.handleClick = this.handleClick.bind(this);
+    }
+
+    handleClick(){
+        this.state.loggedIn = !(this.state.loggedIn);
+    }
+
     render(){
+        if(this.state.loggedIn){
+            // return <Home user={{photoURL:"bob"}} signOut={this.handleClick}/>
+        }
         return(
             <div className="container-login100">
+                
                 <div className="wrap-login100 p-l-55 p-r-55 p-t-45">
                     <div className="login100-form validate-form">
                         <span className="login100-form-title p-b-34">
@@ -24,9 +41,9 @@ export default class FacebookLogin extends Component {
                         </div>
 
                         <div className="container-login100-form-btn">
-                            <button className="login100-form-btn">
-                                Sign In
-                            </button>
+                                <button onClick={this.handleClick()} className="login100-form-btn">
+                                    Sign In
+                                </button>
                         </div>
 
                         <div className="text-center p-t-40 p-b-20">
