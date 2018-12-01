@@ -221,6 +221,10 @@
     line-height: 1.2;
     text-align: center;
   }
+
+  .login100-form-title img {
+    width: 200px;
+  }
   
   /*------------------------------------------------------------------
   [ Input ]*/

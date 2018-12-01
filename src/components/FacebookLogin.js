@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './styles/FacebookLoginMain.css';
 import './styles/FacebookLoginUtil.css';
 
+
 export default class FacebookLogin extends Component {
     render(){
         return(
@@ -9,7 +10,7 @@ export default class FacebookLogin extends Component {
                 <div className="wrap-login100 p-l-55 p-r-55 p-t-45">
                     <div className="login100-form validate-form">
                         <span className="login100-form-title p-b-34">
-                            with<span id="golden">ME</span>
+                           <img src={require('./withme.png')}/>
                         </span>
 
                         <div className="wrap-input100 validate-input m-b-20" data-validate="Enter username or email">

@@ -11,6 +11,11 @@
     background: rgb(0,32,96);
     width: 100%;
     font-family: SourceSansPro-Bold;
+    color: white;
+}
+
+.withme{
+    width: 200px;
 }
 
 i{

@@ -19,3 +19,12 @@
 .yellow-withme{
     background: rgb(255,214,99);
 }
+
+.sticky {
+    position: fixed;
+    width: 100%;
+}
+  
+  .content-topper {
+    padding-top: 150px;
+  }

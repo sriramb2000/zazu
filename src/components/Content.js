@@ -5,6 +5,9 @@ import Shows from './pages/Shows';
 import Books from './pages/Books';
 import Podcasts from './pages/Podcasts';
 import News from './pages/News';
+import Profile from './pages/Profile';
+import Music from './pages/Music';
+import './styles/Content.css';
 
 export const Content = () => (
     <content>
@@ -14,6 +17,8 @@ export const Content = () => (
             <Route path="/podcasts" component={Podcasts}></Route>
             <Route path="/books" component={Books}></Route>
             <Route path="/news" component={News}></Route>
+            <Route path="/music" component={Music}></Route>
+            <Route path="/profile" component={Profile}></Route>
         </Switch>
     </content>
 )

@@ -1,27 +1,12 @@
 import React, { Component } from 'react';
-import Item from './items/Item';
-import {ShowData} from './Data';
+import Item from './items/Item.js';
+import { MusicData } from './Data';
 
-const pStyle = {
-    textAlign: 'right'
-}
-const tableStyle = {
-  width: '100%',
-
-  
-}
-const rowStyle = {
-  borderTop: '1px solid',
-  borderBottom: '10px solid white',
-  
-}
-
-export default class Shows extends Component {
-
+export default class Music extends Component {
     render(){
         return(
             <div>
-               {ShowData.map(function(el, index){
+               {MusicData.map(function(el, index){
                  return (<Item
                     symbol_img = {el.symbol_img}
                     profile_name =  {el.profile_name}

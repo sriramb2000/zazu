@@ -8,10 +8,12 @@ export default class Home extends Component {
     render(){
         return(
             <div className="yellow-bg">
+                <div className="sticky white-back">
+                    <Banner signOut={this.props.signOut} pfp={this.props.user.photoURL}/>
+                    <Navbar/>
+                </div>
                 
-                <Banner signOut={this.props.signOut} pfp={this.props.user.photoURL}/>
-                <Navbar/>
-                <div className="container center-align">
+                <div className="container center-align content-topper">
                     <Content/>
                 </div>
             </div>
