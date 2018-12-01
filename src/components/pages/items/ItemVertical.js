@@ -119,25 +119,22 @@ const postDateStyle = {
 const playIcon = {
 
 	color: 'rgb(255,214,99)',
-	display: 'block',
-    marginLeft: 'auto',
-    marginRight: 'auto',
-    width: '50%',
-    marginTop: '25px',
+    marginLeft: '50px',
+    marginTop: '72px'
 		
 }
 const relativeThumb = {
 	position: 'relative'
 }
 const secondrow = {
-	height: '70px'
+	height: '90px'
 }
 
-export default class Item extends Component {
+export default class ItemVertical extends Component {
     render() {
 		const thumb = {
 	width: '35%',
-	backgroundSize: '80% 80%',
+	backgroundSize: '55% 100%',
 	backgroundRepeat: 'no-repeat',
 	backgroundImage: `url(${this.props.thumb_img})`,
 	backgroundPosition: 'center'
@@ -193,10 +190,8 @@ export default class Item extends Component {
 
 				  </div>
 				  <div className="w3-container w3-cell w3-center" style={thumb}>
-				  	
-		  			 <i className="fa fa-play-circle fa-2x" style={playIcon}></i>
-				  	
-				  </div>
+	  			 	<i className="fas fa-book-open fa-1x" style={playIcon}></i>	  	
+ 				  </div>
 				  
 				  {/*<div className="w3-container w3-cell valign-wrapper" style={linkInfo}>
 

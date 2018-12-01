@@ -45,7 +45,7 @@ const BookData = [
     {
         symbol_img : netflix,
         profile_name :  "bob",
-        thumb_img :  "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781416590316/frederick-douglass-9781416590316_hr.jpg",
+        thumb_img :  " https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781416590316/frederick-douglass-9781416590316_hr.jpg",
         title_name : "Freferick Douglass - David W. Blight",
         comment : "bob",
         thumb_value : "bob",
@@ -55,7 +55,7 @@ const BookData = [
 const ShowData = [
     {
         symbol_img : netflix,//service logo
-        profile_name :  "bob",
+        profile_name :  "Ajey Kaushal",
         thumb_img :  " https://cdn1.thr.com/sites/default/files/imagecache/scale_crop_768_433/2018/02/ac_105_unit_00957r-h_2018.jpg",//title image thumbnail
         title_name : "Altered Carbon",
         comment : "This Show is Awesome!!!",
@@ -64,62 +64,62 @@ const ShowData = [
     },
     {
         symbol_img : hbogo,
-        profile_name :  "bob",
-        thumb_img :  "https://cdn.cinematerial.com/p/500x/065jjctj/last-week-tonight-with-john-oliver-movie-poster.jpg",
+        profile_name :  "Kari Hill",
+        thumb_img :  "https://i.ytimg.com/vi/OjPYmEZxACM/maxresdefault.jpg",
         title_name : "Last Week Tonight",
-        comment : "bob",
-        thumb_value : "bob",
-        post_date : "bob"
+        comment : "Recommend",
+        thumb_value : "5",
+        post_date : "20 Hours Ago"
     },
     {
         symbol_img : netflix,
-        profile_name :  "bob",
-        thumb_img :  "https://m.media-amazon.com/images/M/MV5BODQxMmI3ZGQtOGRlNy00MzI3LWE3ZmItOWRjM2I2YjQyYzgzXkEyXkFqcGdeQXVyMzI2MzYyNzI@._V1_UY1200_CR171,0,630,1200_AL_.jpg",
+        profile_name :  "Dan Ivstan",
+        thumb_img :  "http://digitalspyuk.cdnds.net/18/36/980x490/landscape-1536353645-kims-convenience-5.jpg",
         title_name : "Kim's Convenience",
-        comment : "bob",
-        thumb_value : "bob",
-        post_date : "bob"
+        comment : "Bluh Bluh Bluh",
+        thumb_value : "2",
+        post_date : "1 Day Ago"
     },
     {
         symbol_img : netflix,
-        profile_name :  "bob",
-        thumb_img :  "https://m.media-amazon.com/images/M/MV5BMjE2MTIxNTU5N15BMl5BanBnXkFtZTgwMDY5NjczNjM@._V1_.jpg",
+        profile_name :  "Divij Damodhar",
+        thumb_img :  "https://occ-0-990-987.1.nflxso.net/art/4d0b9/363f1e49f7ebba6e616b5248ec24b5d58b94d0b9.jpg",
         title_name : "Patriot Act",
-        comment : "This Movie is Awesome",
-        thumb_value : "bob",
-        post_date : "bob"
+        comment : "This Show is Awesome",
+        thumb_value : "20",
+        post_date : "2 Days Ago"
     },
     {
         symbol_img : hbogo,
-        profile_name :  "bob",
-        thumb_img :  "https://images-na.ssl-images-amazon.com/images/I/61EH%2BjMjfEL._SX425_.jpg",
+        profile_name :  "Sriram Balachandran",
+        thumb_img :  " https://i.cbc.ca/1.4309262.1506624949!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/curb-your-enthusiasm.jpg",
         title_name : "Curb Your Enthusiasm",
-        comment : "bob",
-        thumb_value : "bob",
-        post_date : "bob"
+        comment : "AAA",
+        thumb_value : "57",
+        post_date : "5 Days Ago"
     },
     {
         symbol_img : primevideo,
-        profile_name :  "bob",
-        thumb_img :  "https://images-na.ssl-images-amazon.com/images/I/91rjtkzrRWL._RI_.jpg",
+        profile_name :  "Masataka Mori",
+        thumb_img :  "https://car-images.bauersecure.com/pagefiles/68099/grandtourepisode1.jpg",
         title_name : "The Grand Tour",
         comment : "bob",
-        thumb_value : "bob",
-        post_date : "bob"
+        thumb_value : "1",
+        post_date : "1 Week Ago"
     },
     {
         symbol_img : hulu,
-        profile_name :  "bob",
-        thumb_img :  " https://assets.foxdcg.com/dpp-uploaded/images/brooklyn-nine-nine/showcase.jpg",
+        profile_name :  "Sriram Balachandran",
+        thumb_img :  "https://assets.foxdcg.com/dpp-uploaded/images/brooklyn-nine-nine/keyart2.jpg",
         title_name : "Brooklyn Nine-Nine",
         comment : "bob",
         thumb_value : "bob",
-        post_date : "bob"
+        post_date : "3 Weeks Ago"
     },
     {
         symbol_img : hbogo,
         profile_name :  "bob",
-        thumb_img :  "https://i.ytimg.com/sh/w1TLWnXROArYscXLdozNig/market.jpg",
+        thumb_img :  "https://pmcvariety.files.wordpress.com/2018/08/insecure-season-3-hbo.jpg?w=1000",
         title_name : "Insecure",
         comment : "bob",
         thumb_value : "bob",
@@ -130,7 +130,7 @@ const MovieData = [
     {
         symbol_img : netflix,
         profile_name :  "bob",
-        thumb_img :  "https://images.wolfgangsvault.com/troy/poster/memorabilia/ZZZ060836-PO.jpg",
+        thumb_img :  "https://images.amcnetworks.com/ifc.com/wp-content/uploads/2016/04/Troy-Pitt-2-web-e1460667624103-800x400.jpg",
         title_name : "Troy",
         comment : "bob",
         thumb_value : "bob",
@@ -139,7 +139,7 @@ const MovieData = [
     {
         symbol_img : primevideo,
         profile_name :  "bob",
-        thumb_img :  "https://m.media-amazon.com/images/M/MV5BZWM4YzZjOTEtZmU5ZS00ZTRkLWFiNjAtZTEwNzIzMDM5MjdmXkEyXkFqcGdeQXVyNDg2MjUxNjM@._V1_UY1200_CR90,0,630,1200_AL_.jpg",
+        thumb_img :  "https://cdn1.thr.com/sites/default/files/imagecache/landscape_928x523/2017/06/024a_tbs_sg_30719-h_2017.jpg",
         title_name : "The Big Sick",
         comment : "bob",
         thumb_value : "bob",
@@ -148,7 +148,7 @@ const MovieData = [
     {
         symbol_img : hulu,
         profile_name :  "bob",
-        thumb_img :  "https://images-na.ssl-images-amazon.com/images/I/51pUwsKO5JL.jpg",
+        thumb_img :  "https://fgmxi4acxur9qbg31y9s3a15-wpengine.netdna-ssl.com/wp-content/uploads/sites/2/2017/10/MargotRobbieasTonyaHarding-feature-1600x900-c-default.jpg",
         title_name : "I, Tonya",
         comment : "bob",
         thumb_value : "bob",
@@ -157,7 +157,7 @@ const MovieData = [
     {
         symbol_img : fandango,
         profile_name :  "bob",
-        thumb_img :  "https://m.media-amazon.com/images/M/MV5BMTcxMjUwNjQ5N15BMl5BanBnXkFtZTgwNjk4MzI4NjM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        thumb_img :  "http://digitalspyuk.cdnds.net/18/47/980x490/landscape-1542964252-sylvester-stallone-michael-b-jordan.jpg",
         title_name : "Creed II",
         comment : "bob",
         thumb_value : "bob",
@@ -169,7 +169,7 @@ const PodcastData = [
     {
         symbol_img : hulu,
         profile_name :  "bob",
-        thumb_img :  " https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/The_Joe_Rogan_Experience_logo.jpg/220px-The_Joe_Rogan_Experience_logo.jpg",
+        thumb_img :  "https://secureimg.stitcher.com/feedimageswide/480x270_13180.jpg",
         title_name : "The Joe Rogan Experience",
         comment : "bob",
         thumb_value : "bob",
@@ -178,7 +178,7 @@ const PodcastData = [
     {
         symbol_img : hulu,
         profile_name :  "bob",
-        thumb_img :  "http://mediad.publicbroadcasting.net/p/kuer/files/201705/thisamericanlife.jpg",
+        thumb_img :  "http://www.tracking-board.com/wp-content/uploads/2015/11/this_american_life_header2.jpg",
         title_name : "This American Life",
         comment : "bob",
         thumb_value : "bob",
@@ -187,7 +187,7 @@ const PodcastData = [
     {
         symbol_img : hulu,
         profile_name :  "bob",
-        thumb_img :  "http://deow9bq0xqvbj.cloudfront.net/dir-logo/38108/38108.jpg",
+        thumb_img :  "https://accelerator-origin.kkomando.com/wp-content/uploads/2018/07/planet-money-970x546.jpg",
         title_name : "Planet Money",
         comment : "bob",
         thumb_value : "bob",
@@ -196,7 +196,7 @@ const PodcastData = [
     {
         symbol_img : hulu,
         profile_name :  "bob",
-        thumb_img :  "http://static.megaphone.fm/podcasts/98f79b5c-dc88-11e8-b84f-9740ad7ba51d/image/fantasy_football_today.jpg",
+        thumb_img :  "https://secureimg.stitcher.com/customfeedimages/480x270_9679.jpg",
         title_name : "Fantasy Football Today Podcast",
         comment : "bob",
         thumb_value : "bob",
@@ -208,7 +208,7 @@ const LinkData = [
     {
         symbol_img : wsj,
         profile_name :  "bob",
-        thumb_img :  "https://cdn.vox-cdn.com/thumbor/NeSo4JAqv-fFJCIhb5K5eBqvXG4=/7x0:633x417/1200x800/filters:focal(7x0:633x417)/cdn.vox-cdn.com/assets/1311169/mslogo.jpg",
+        thumb_img :  " https://cdn.vox-cdn.com/thumbor/NeSo4JAqv-fFJCIhb5K5eBqvXG4=/7x0:633x417/1200x800/filters:focal(7x0:633x417)/cdn.vox-cdn.com/assets/1311169/mslogo.jpg",
         title_name : "Microsoft shows why Big Tech has staying power",
         comment : "bob",
         thumb_value : "bob",
@@ -217,7 +217,7 @@ const LinkData = [
     {
         symbol_img : techcrunch,
         profile_name :  "bob",
-        thumb_img :  "https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png",
+        thumb_img :  " https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png",
         title_name : "Nine companies will compete to help NASA astronauts return to the moon",
         comment : "bob",
         thumb_value : "bob",
@@ -235,7 +235,7 @@ const LinkData = [
     {
         symbol_img : youtube,
         profile_name :  "bob",
-        thumb_img :  "https://i.ytimg.com/vi/OfS5MI_3_WE/hqdefault.jpg",
+        thumb_img :  " https://i.ytimg.com/vi/OfS5MI_3_WE/hqdefault.jpg",
         title_name : "Zlatan Ibrahimovic-Top 10 Goals Ever|HD - ",
         comment : "bob",
         thumb_value : "bob",
@@ -247,7 +247,7 @@ const MusicData = [
     {
         symbol_img : spotify,
         profile_name :  "bob",
-        thumb_img :  "https://f4.bcbits.com/img/a0978734060_10.jpg",
+        thumb_img :  "https://i.ytimg.com/vi/-FijjVDsa2I/maxresdefault.jpg",
         title_name : "A Walk - Tycho",
         comment : "bob",
         thumb_value : "bob",
@@ -256,7 +256,7 @@ const MusicData = [
     {
         symbol_img : applemusic,
         profile_name :  "bob",
-        thumb_img :  "https://i.ytimg.com/vi/d-JBBNg8YKs/maxresdefault.jpg",
+        thumb_img :  "https://i.ytimg.com/vi/d-JBBNg8YKs/maxresdefault.jpg ",
         title_name : "Sicko Mode - Travis Scott",
         comment : "bob",
         thumb_value : "bob",
@@ -265,7 +265,7 @@ const MusicData = [
     {
         symbol_img : spotify,
         profile_name :  "bob",
-        thumb_img :  "https://geo-media.beatport.com/image/926ffad5-c656-43aa-8716-6877f27dc0cb.jpg",
+        thumb_img :  "https://i.ytimg.com/vi/fWjkAzZRnxI/maxresdefault.jpg",
         title_name : "Losing It - Fisher",
         comment : "bob",
         thumb_value : "bob",
