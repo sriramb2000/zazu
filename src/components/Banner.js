@@ -34,12 +34,11 @@ export default class Banner extends Component {
                 <span onClick={this.openNav.bind(this)}><i className="fa fa-bars fa-2x"></i></span>
                 <div id="sidenav" ref={this.sideNav}>
                     <a href="javascript:void(0)" className="closebtn" onClick={this.closeNav.bind(this)}>&times;</a>
-                    <a href="#">About</a>
-                    <a href="#">Services</a>
-                    <a href="#">Clients</a>
-                    <a href="#">Contact</a>
-                    <Button onClick={this.props.signOut}>Log out</Button>
-                </div>
+                    <a href="#">Subscription</a>
+                    <a href="#">Connect</a>
+                    <a href="#">Privacy</a>
+                    <a href="#"><Button id="logout" onClick={this.props.signOut}>Log out</Button></a>
+                    </div>
                 </Col>
                 <Col s={8} m={9} className="center-align"><img className="withme" src={require("./withme.png")}/></Col>
                 <Col s={2} m={1}><Link to="profile"><img className="circle" src={this.props.pfp}/></Link></Col>
