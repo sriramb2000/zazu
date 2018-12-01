@@ -17,6 +17,7 @@ const symbolImg = {
 	width: '30px',
 	height: '30px',
 	float: 'left',
+	background: 'rgb(229,229,229)'
 	
 }
 const profileStyle = {
@@ -135,7 +136,8 @@ const playIcon = {
 }
 
 const secondrow = {
-	height: '70px'
+	height: '70px',
+	minHeight: '70px'
 }
 
 export default class Item extends Component {
@@ -177,7 +179,7 @@ export default class Item extends Component {
 			 <div className="w3-cell-row " style={secondrow}>
 			 	  <div className="w3-container w3-cell left-align" style={info}>
 				  	<p style={titleStyle}> {this.props.title_name} </p>
-				  	<p style={commentStyle}> "{this.props.comment}" </p>
+				  	<p style={commentStyle}> {this.props.comment} </p>
 
 			  	<div className="w3-cell-row ">
 			 		<div className="w3-container w3-cell " style={vote}>

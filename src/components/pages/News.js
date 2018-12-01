@@ -12,8 +12,8 @@ export default class News extends Component {
                     profile_name =  {el.profile_name}
                     thumb_img =  {el.thumb_img}
                     title_name = {el.title_name}
-                    comment = {el.comment}
-                    play_icon = "fa fa-play-circle fa-2x"
+                    
+                    unsubscribed = {true}
                     thumb_value = {el.thumb_value}
                     post_date = {el.post_date}
                     key={index}
